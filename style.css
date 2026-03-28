@@ -5,23 +5,25 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #0f172a;
-  color: #f1f5f9;
+  background: #F7E1D7;
+  color: #4A5759;
+  line-height: 1.6;
 }
 
 .hero {
   text-align: center;
   padding: 80px 20px;
-  background: linear-gradient(135deg, #1e293b, #020617);
+  background: linear-gradient(135deg, #EDAFB8, #DEDBD2);
 }
 
 .hero h1 {
   font-size: 3rem;
   margin: 0;
+  color: #4A5759;
 }
 
 .hero p {
-  color: #94a3b8;
+  color: #4A5759;
   margin-top: 10px;
 }
 
@@ -30,10 +32,14 @@ nav {
 }
 
 nav a {
-  color: #38bdf8;
+  color: #4A5759;
   margin: 0 10px;
   text-decoration: none;
   font-weight: bold;
+}
+
+nav a:hover {
+  color: #EDAFB8;
 }
 
 main {
@@ -47,17 +53,19 @@ section {
 }
 
 h2 {
-  border-bottom: 2px solid #38bdf8;
+  border-bottom: 2px solid #EDAFB8;
   display: inline-block;
   padding-bottom: 5px;
+  color: #4A5759;
 }
 
 .card {
-  background: #1e293b;
+  background: #DEDBD2;
   padding: 20px;
   border-radius: 12px;
   margin-top: 20px;
   transition: transform 0.2s;
+  box-shadow: 0 4px 12px rgba(74, 87, 89, 0.08);
 }
 
 .card:hover {
@@ -65,15 +73,19 @@ h2 {
 }
 
 .card a {
-  color: #38bdf8;
+  color: #4A5759;
   font-weight: bold;
   text-decoration: none;
+}
+
+.card a:hover {
+  color: #EDAFB8;
 }
 
 footer {
   text-align: center;
   padding: 30px;
-  color: #64748b;
+  color: #4A5759;
 }
 
 .play-button,
@@ -82,15 +94,28 @@ footer {
   margin-top: 12px;
   margin-right: 10px;
   padding: 10px 16px;
-  background: #38bdf8;
-  color: white;
   text-decoration: none;
   border-radius: 8px;
   font-weight: bold;
+  transition: background 0.2s, color 0.2s;
+}
+
+.play-button {
+  background: #EDAFB8;
+  color: #4A5759;
+}
+
+.play-button:hover {
+  background: #e59ca8;
 }
 
 .details-button {
-  background: #475569;
+  background: #B0C4B1;
+  color: #4A5759;
+}
+
+.details-button:hover {
+  background: #9bb19d;
 }
 
 .gallery {
@@ -103,4 +128,5 @@ footer {
 .gallery img {
   width: 100%;
   border-radius: 10px;
+  border: 3px solid #DEDBD2;
 }
