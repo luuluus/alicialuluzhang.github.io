@@ -5,15 +5,15 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #F7E1D7;
-  color: #4A5759;
+  background: #F7E1D7;   /* Powder Petal */
+  color: #4A5759;        /* Iron Grey */
   line-height: 1.6;
 }
 
 .hero {
   text-align: center;
   padding: 80px 20px;
-  background: linear-gradient(135deg, #EDAFB8, #DEDBD2);
+  background: linear-gradient(135deg, #EDAFB8, #B0C4B1);
 }
 
 .hero h1 {
@@ -56,16 +56,15 @@ h2 {
   border-bottom: 2px solid #EDAFB8;
   display: inline-block;
   padding-bottom: 5px;
-  color: #4A5759;
 }
 
 .card {
-  background: #DEDBD2;
+  background: #DEDBD2;   /* Dust Grey */
   padding: 20px;
   border-radius: 12px;
   margin-top: 20px;
-  transition: transform 0.2s;
   box-shadow: 0 4px 12px rgba(74, 87, 89, 0.08);
+  transition: transform 0.2s;
 }
 
 .card:hover {
@@ -76,10 +75,6 @@ h2 {
   color: #4A5759;
   font-weight: bold;
   text-decoration: none;
-}
-
-.card a:hover {
-  color: #EDAFB8;
 }
 
 footer {
@@ -97,25 +92,16 @@ footer {
   text-decoration: none;
   border-radius: 8px;
   font-weight: bold;
-  transition: background 0.2s, color 0.2s;
 }
 
 .play-button {
-  background: #EDAFB8;
+  background: #EDAFB8;   /* Cherry Blossom */
   color: #4A5759;
-}
-
-.play-button:hover {
-  background: #e59ca8;
 }
 
 .details-button {
-  background: #B0C4B1;
+  background: #B0C4B1;   /* Ash Grey */
   color: #4A5759;
-}
-
-.details-button:hover {
-  background: #9bb19d;
 }
 
 .gallery {
@@ -128,5 +114,4 @@ footer {
 .gallery img {
   width: 100%;
   border-radius: 10px;
-  border: 3px solid #DEDBD2;
 }
