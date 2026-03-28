@@ -75,3 +75,20 @@ footer {
   padding: 30px;
   color: #64748b;
 }
+
+.play-button,
+.details-button {
+  display: inline-block;
+  margin-top: 12px;
+  margin-right: 10px;
+  padding: 10px 16px;
+  background: #38bdf8;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.details-button {
+  background: #475569;
+}
