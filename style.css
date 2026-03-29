@@ -1,15 +1,24 @@
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: #F7E1D7;   /* Powder Petal */
-  color: #4A5759;        /* Iron Grey */
+  font-family: 'Inter', sans-serif;
+  background: #F7E1D7;
+  color: #4A5759;
   line-height: 1.6;
 }
 
+/* Headings */
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+/* HERO */
 .hero {
   text-align: center;
   padding: 80px 20px;
@@ -20,6 +29,7 @@ body {
   font-size: 3rem;
   margin: 0;
   color: #4A5759;
+  letter-spacing: 1px;
 }
 
 .hero p {
@@ -27,6 +37,7 @@ body {
   margin-top: 10px;
 }
 
+/* NAV */
 nav {
   margin-top: 20px;
 }
@@ -35,13 +46,14 @@ nav a {
   color: #4A5759;
   margin: 0 10px;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 nav a:hover {
   color: #EDAFB8;
 }
 
+/* MAIN CONTENT */
 main {
   max-width: 900px;
   margin: auto;
@@ -58,8 +70,9 @@ h2 {
   padding-bottom: 5px;
 }
 
+/* PROJECT CARDS */
 .card {
-  background: #DEDBD2;   /* Dust Grey */
+  background: #DEDBD2;
   padding: 20px;
   border-radius: 12px;
   margin-top: 20px;
@@ -73,16 +86,11 @@ h2 {
 
 .card a {
   color: #4A5759;
-  font-weight: bold;
+  font-weight: 500;
   text-decoration: none;
 }
 
-footer {
-  text-align: center;
-  padding: 30px;
-  color: #4A5759;
-}
-
+/* BUTTONS */
 .play-button,
 .details-button {
   display: inline-block;
@@ -91,19 +99,28 @@ footer {
   padding: 10px 16px;
   text-decoration: none;
   border-radius: 8px;
-  font-weight: bold;
+  font-weight: 600;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
 .play-button {
-  background: #EDAFB8;   /* Cherry Blossom */
+  background: #EDAFB8;
   color: #4A5759;
 }
 
 .details-button {
-  background: #B0C4B1;   /* Ash Grey */
+  background: #B0C4B1;
   color: #4A5759;
 }
 
+/* Button hover effect (nice polish) */
+.play-button:hover,
+.details-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(74, 87, 89, 0.15);
+}
+
+/* GALLERY */
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -114,4 +131,11 @@ footer {
 .gallery img {
   width: 100%;
   border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #4A5759;
 }
