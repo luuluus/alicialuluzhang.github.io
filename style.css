@@ -111,25 +111,12 @@ h2 {
   text-decoration: none;
   border-radius: 8px;
   font-weight: 600;
+  background: #D282A6;
+  color: #3A3238;
   transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.2s ease, color 0.2s ease;
 }
 
-.play-button {
-  background: #D282A6;
-  color: #F5E3E0;
-}
-
-.play-button:hover {
-  background: #5D3A49;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 10px rgba(58, 50, 56, 0.15);
-}
-
-.details-button {
-  background: #D282A6;
-  color: #3A3238;
-}
-
+.play-button:hover,
 .details-button:hover {
   background: #C46F96;
   transform: translateY(-2px);
